@@ -2,7 +2,7 @@ terraform {
 #   cloud {
 #     organization = "Test-Roza"
 #     workspaces {
-#       name = "learn-terraform-provider-versioning"
+#       name = "hcp-terraform-task-1"
 #     }
 #   }
 
@@ -18,5 +18,5 @@ terraform {
     }
   }
 
-  required_version = "0.13.2"
+  required_version = ">=0.13.2"
 }
